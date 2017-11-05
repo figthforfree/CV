@@ -1,7 +1,7 @@
 function scrollSkip($node,dis){
   $node.click(function(e){
       e.preventDefault();
-      $('body').animate({scrollTop:dis},500)
+      $('html').animate({scrollTop:dis},500)
       $(this).parent('.top-nav-tab').removeClass('show');
   })
 }
