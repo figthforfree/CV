@@ -33,7 +33,7 @@ $(window).scroll(function(){
   arr.sort((a,b)=>{
       return a-b
   })
-  var index=arr.indexOf(scrollTop)-1;
+  var index=arr.indexOf(scrollTop);
   $navTab.removeClass('active');
   $navTab.eq(index).addClass('active')
 })
