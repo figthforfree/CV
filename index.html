@@ -190,7 +190,17 @@
     .brif-intro {
         padding: 40px 0 10px 40px
     }
-
+    .brif-intro img{
+        animation: 4s trans infinite;
+    }
+    @keyframes trans {
+        0% {
+            transform: rotateY(0)
+        }
+        100% {
+            transform: rotateY(360deg)
+        }
+    }
     .brif-intro h3 {
         margin-top: 10px;
         text-align: left;
